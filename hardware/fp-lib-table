@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "David_Library") (type "KiCad") (uri "C:/Users/DVeloz/Documents/KiCad/10.0/footprints/David_Library.pretty") (options "") (descr ""))
+)
