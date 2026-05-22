@@ -123,7 +123,7 @@ Open_Battery_Charger/
 
 ## Schematic
 
-![Schematic](docs/schematic.png)
+![Schematic](Docs/schematic.png)
 
 ---
 
@@ -131,11 +131,11 @@ Open_Battery_Charger/
 
 ### Top View
 
-![PCB Top](docs/2D_pcb_top.png)
+![PCB Top](Docs/2D_pcb_top.png)
 
 ### 3D Render
 
-![PCB Render](docs/3D_pcb_top.png)
+![PCB Render](Docs/3D_pcb_top.png)
 
 ---
 
