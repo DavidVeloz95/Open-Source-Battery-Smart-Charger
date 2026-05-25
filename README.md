@@ -109,10 +109,12 @@ Open_Battery_Charger/
 │   ├── schematic.pdf
 │   ├── schematic.png
 │   ├── 2D_pcb_top.png
-│   ├── 2D_Dpcb_bottom.png
+│   ├── 2D_pcb_bottom.png
 │   ├── 3D_pcb_top.png
-│   ├── 3D_Dpcb_bottom.png
-│   └── block_diagram.png
+│   ├── 3D_pcb_bottom.png
+│   ├── Detailed_Design_Procedure_LT3650.pdf
+│   ├── Detailed_Design_Procedure_TPS2660
+│   └── Open_Source_Battery_Smart_Charger_Specifications.pdf
 │
 └── production/
     ├── gerbers/
