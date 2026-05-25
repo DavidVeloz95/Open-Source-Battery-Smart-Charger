@@ -6391,16 +6391,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 96.52) (xy 185.42 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92323d16-a91b-454c-99dd-c73c1028facb")
-	)
-	(wire
-		(pts
 			(xy 194.31 48.26) (xy 194.31 50.8)
 		)
 		(stroke
@@ -7031,16 +7021,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 125.73) (xy 166.37 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfdeb519-afd5-404d-998c-6b18035d4e46")
-	)
-	(wire
-		(pts
 			(xy 219.71 104.14) (xy 233.68 104.14)
 		)
 		(stroke
@@ -7398,6 +7378,26 @@
 			(justify left bottom)
 		)
 		(uuid "a05c4857-30dc-405a-9ac9-1db0e9e6ad76")
+	)
+	(label "DC_IN"
+		(at 185.42 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a60d1f3d-0e7a-46b0-8817-1d672fd08118")
+	)
+	(label "DC_IN"
+		(at 166.37 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf932650-43f7-4a12-ab8d-9922932680e5")
 	)
 	(label "PS_Voltage"
 		(at 234.95 118.11 0)
@@ -8831,84 +8831,6 @@
 			(project "Open_Battery_Charger"
 				(path "/ef89b6d1-8014-4c2e-9709-de4d62acd01c"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 185.42 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b3d362e-7f39-495a-b479-d93d49ce9d31")
-		(property "Reference" "#PWR018"
-			(at 185.42 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 185.42 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 185.42 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0472f336-6203-4c25-8505-7ffd7f9c634c")
-		)
-		(instances
-			(project "Open_Battery_Charger"
-				(path "/ef89b6d1-8014-4c2e-9709-de4d62acd01c"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -13158,84 +13080,6 @@
 			(project "Open_Battery_Charger"
 				(path "/ef89b6d1-8014-4c2e-9709-de4d62acd01c"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 166.37 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9783baf-76b9-4f00-9081-89d29c1e6c3d")
-		(property "Reference" "#PWR019"
-			(at 166.37 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 166.37 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 166.37 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e81e1124-8d58-4543-9eab-7de15f5d8542")
-		)
-		(instances
-			(project "Open_Battery_Charger"
-				(path "/ef89b6d1-8014-4c2e-9709-de4d62acd01c"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
